@@ -92,7 +92,7 @@ $ cd proyectos_git
 ```
 3. A continuación clonamos el repositorio remoto.
 ```
-$ git clone git@github.com:iespenyagolosa/controlaccesos.git
+$ git clone git@github.com:iespenyagolosa/proyectodron.git
 ```
 
 ## Flujo de trabajo
