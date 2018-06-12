@@ -31,7 +31,7 @@ fecha=datetime.now().strftime("%m_%d_%Y_%H_%M_%S")
 sleep(180)
 
 
-for filename in camara.capture_continuous('/home/pi/drone/imagenes/timelapse/img{counter:03d}'+fecha+'.jpg'):
+for filename in camara.capture_continuous('/home/pi/drone/imagenes/timeLapse/img{counter:03d}'+fecha+'.jpg'):
     print('Captured %s' % filename)
     sleep(4) # espera 4 segundos
 
